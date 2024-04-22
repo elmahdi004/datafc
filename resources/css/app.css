@@ -1,0 +1,175 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+    --toastify-color-light: #fff;
+    --toastify-color-dark: #121212;
+    --toastify-color-info: #3498db;
+    --toastify-color-success: #238a91;
+    --toastify-color-warning: #f1c40f;
+    --toastify-color-error: #e74c3c;
+    --toastify-color-transparent: rgba(255, 255, 255, 0.7);
+
+    --toastify-icon-color-info: var(--toastify-color-info);
+    --toastify-icon-color-success: var(--toastify-color-success);
+    --toastify-icon-color-warning: var(--toastify-color-warning);
+    --toastify-icon-color-error: var(--toastify-color-error);
+
+    --toastify-toast-width: 320px;
+    --toastify-toast-background: #fff;
+    --toastify-toast-min-height: 64px;
+    --toastify-toast-max-height: 800px;
+    --toastify-font-family: sans-serif;
+    --toastify-z-index: 99999;
+
+    --toastify-text-color-light: #757575;
+    --toastify-text-color-dark: #fff;
+
+    --toastify-text-color-info: #fff;
+    --toastify-text-color-success: #fff;
+    --toastify-text-color-warning: #fff;
+    --toastify-text-color-error: #fff;
+
+    --toastify-spinner-color: #616161;
+    --toastify-spinner-color-empty-area: #e0e0e0;
+
+
+    --toastify-color-progress-light: linear-gradient(
+      to right,
+      #4cd964,
+      #5ac8fa,
+      #007aff,
+      #34aadc,
+      #5856d6,
+      #ff2d55
+    );
+    --toastify-color-progress-dark: #bb86fc;
+    --toastify-color-progress-info: var(--toastify-color-info);
+    --toastify-color-progress-success: var(--toastify-color-success);
+    --toastify-color-progress-warning: var(--toastify-color-warning);
+    --toastify-color-progress-error: var(--toastify-color-error);
+  }
+
+::-webkit-scrollbar {
+    height: 8px;
+    width: 8px
+  }
+
+  ::-webkit-scrollbar-track {
+    background: transparent
+  }
+
+  ::-webkit-scrollbar-thumb {
+   --tw-bg-opacity: 0.8;
+   background-color: rgb(35 138 145 / var(--tw-bg-opacity));
+    border-radius: 50px
+  }
+
+
+  ::-webkit-scrollbar-thumb:hover {
+    --tw-bg-opacity: 1;
+    background-color: rgb(35 138 145 / var(--tw-bg-opacity));
+  }
+/*----------------*/
+input[id^="react-select-"] {
+    @apply focus:outline-none focus:border-transparent focus:ring-0;
+
+  }
+
+
+  #ecIZC5qiJ8M4_tr {
+    animation: ecIZC5qiJ8M4_tr__tr 1200ms linear infinite normal forwards
+}
+
+@keyframes ecIZC5qiJ8M4_tr__tr {
+    0% {
+        transform: translate(127.121498px, 292.309494px) rotate(0deg)
+    }
+
+    100% {
+        transform: translate(127.121498px, 292.309494px) rotate(357.711984deg)
+    }
+}
+
+#ecIZC5qiJ8M5_tr {
+    animation: ecIZC5qiJ8M5_tr__tr 1200ms linear infinite normal forwards
+}
+
+@keyframes ecIZC5qiJ8M5_tr__tr {
+    0% {
+        transform: translate(315.590012px, 292.309494px) rotate(0deg)
+    }
+
+    100% {
+        transform: translate(315.590012px, 292.309494px) rotate(357.711984deg)
+    }
+}
+
+#ecIZC5qiJ8M6_to {
+    animation: ecIZC5qiJ8M6_to__to 1200ms linear infinite normal forwards
+}
+
+@keyframes ecIZC5qiJ8M6_to__to {
+    0% {
+        transform: translate(95.402px, 144.028px)
+    }
+
+    50% {
+        transform: translate(95.402px, 137.028px)
+    }
+
+    100% {
+        transform: translate(95.402px, 144.028px)
+    }
+}
+
+#ecIZC5qiJ8M7_to {
+    animation: ecIZC5qiJ8M7_to__to 1200ms linear infinite normal forwards
+}
+
+@keyframes ecIZC5qiJ8M7_to__to {
+    0% {
+        transform: translate(226.19899px, 186.602974px)
+    }
+
+    50% {
+        transform: translate(226.19899px, 179.602974px)
+    }
+
+    100% {
+        transform: translate(226.19899px, 186.602974px)
+    }
+}
+
+#ecIZC5qiJ8M8_to {
+    animation: ecIZC5qiJ8M8_to__to 1200ms linear infinite normal forwards
+}
+
+@keyframes ecIZC5qiJ8M8_to__to {
+    0% {
+        transform: translate(66.918999px, 202.464005px)
+    }
+
+    50% {
+        transform: translate(66.918999px, 195.464005px)
+    }
+
+    100% {
+        transform: translate(66.918999px, 202.464005px)
+    }
+}
+
+
+.rdw-editor-main {
+    width: 100%;
+    border-radius: 0.4rem;
+    border: 0.1px solid gray;
+    --tw-border-opacity: 1;
+    border-color: rgb(209 213 219 / var(--tw-border-opacity));
+    --tw-shadow: 0 1px 2px 0 rgb(0 0 0 / 0.05);
+    --tw-shadow-colored: 0 1px 2px 0 var(
+    --tw-shadow-color);
+    box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
+    background: #00000012;
+}
