@@ -2,7 +2,7 @@ import React from 'react'
 import ClientLayout from '@/Layouts/ClientLayout'
 
 import HerosNosFormation from '../Hero/HerosNosFormation'
-import CardFormation from './cardFormation'
+import CardFormation from './CardFormation'
 
 function FormationCard() {
 const data=[
